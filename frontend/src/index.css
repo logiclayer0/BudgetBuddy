@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +36,10 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #6C63FF;
   border-radius: 10px;
+}
+
+.glass-effect {
+  background: rgba(45, 43, 85, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
