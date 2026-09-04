@@ -14,7 +14,17 @@ import TransactionHistory from './components/TransactionHistory'
 function App() {
   return (
     <BrowserRouter>
-      <Toaster position="top-right" />
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          style: {
+            background: '#1A1A2E',
+            color: '#FFFFFF',
+            border: '1px solid #374151',
+            borderRadius: '12px',
+          },
+        }}
+      />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
