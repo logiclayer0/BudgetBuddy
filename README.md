@@ -151,15 +151,9 @@ sui client publish --gas-budget 10000000
 ```
 ## Environment Variables
 ```
-PORT=5000
+
 JWT_SECRET=your_secret_key
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_NAME=budgetbuddy
-SUI_PACKAGE_ID=0xYOUR_PACKAGE_ID
-GEMINI_API_KEY=your_gemini_key
+
 
 ```
 
