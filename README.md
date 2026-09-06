@@ -4,12 +4,6 @@ A professional web application that helps you track UPI transactions, detect was
 
 ---
 
-
-
-## 📸 Screenshots
-
-## 📸 Screenshots
-
 ## 📸 Screenshots
 
 ### Landing Page (Logged In)
