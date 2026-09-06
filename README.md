@@ -2,34 +2,74 @@
 
 A professional web application that helps you track UPI transactions, detect wasteful spending, and secure your financial data on the Sui blockchain.
 
+---
+
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](Screenshot%202026-09-06%20122656.png)
+
+### Login Page
+![Login Page](Screenshot%202026-09-06%20124901.png)
+
+### Dashboard
+![Dashboard](Screenshot%202026-09-06%20124940.png)
+
+### Add Transaction
+![Add Transaction](Screenshot%202026-09-06%20123705.png)
+
+### Budget Setup
+![Budget Setup](Screenshot%202026-09-06%20124919.png)
+
+### Insights & AI Coach
+![Insights](Screenshot%202026-09-06%20124924.png)
+
+### Transaction History
+![Transaction History](Screenshot%202026-09-06%20124931.png)
+
+---
+
 ## 🚀 Features
 
 - 📊 Track UPI transactions manually or via CSV import
 - 🔍 AI-powered waste detection and spending insights
-- ⛓️ Blockchain-secured immutable transaction records
-- 📈 Visual spending analytics with charts
-- 💰 Budget management with real-time alerts
+- ⛓️ Blockchain-secured immutable transaction records on Sui Network
+- 📈 Visual spending analytics with interactive charts
+- 💰 Budget management with real-time progress alerts
 - 🔐 JWT-based authentication
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js + Vite
-- Tailwind CSS
-- Recharts for visualizations
-- React Router for navigation
+| Technology | Purpose |
+| :--- | :--- |
+| React.js + Vite | UI framework & build tool |
+| Tailwind CSS | Styling & responsive design |
+| Recharts | Data visualizations |
+| React Router | Navigation |
+| React Hot Toast | User notifications |
 
 ### Backend
-- Node.js + Express
-- PostgreSQL database
-- JWT authentication
-- Sui blockchain integration
+| Technology | Purpose |
+| :--- | :--- |
+| Node.js + Express | REST API server |
+| SQLite | Lightweight database |
+| JWT | Authentication |
+| Multer | CSV file upload |
+| Sui CLI | Blockchain interaction |
 
 ### Blockchain
-- Sui Network (Testnet)
-- Move smart contracts
+| Technology | Purpose |
+| :--- | :--- |
+| Sui Network (Testnet) | Decentralized ledger |
+| Move Language | Smart contracts |
+
+---
 
 ## 📁 Project Structure
+
 ```
 BudgetBuddy/
 ├── backend/
