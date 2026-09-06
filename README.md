@@ -15,8 +15,6 @@ A professional web application that helps you track UPI transactions, detect was
 ### Landing Page (Logged In)
 ![Landing Page](screenshots/Screenshot%202026-09-06%20124853.png)
 
-### Login Page
-![Login Page](screenshots/Screenshot%202026-09-06%20124901.png)
 
 ### Dashboard
 ![Dashboard](screenshots/Screenshot%202026-09-06%20124940.png)
