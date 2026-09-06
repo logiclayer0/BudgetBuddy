@@ -6,26 +6,28 @@ A professional web application that helps you track UPI transactions, detect was
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### Landing Page
-![Landing Page](Screenshot%202026-09-06%20122656.png)
+![Landing Page](screenshots/Screenshot%202026-09-06%20122656.png)
 
 ### Login Page
-![Login Page](Screenshot%202026-09-06%20124901.png)
+![Login Page](screenshots/Screenshot%202026-09-06%20124901.png)
 
 ### Dashboard
-![Dashboard](Screenshot%202026-09-06%20124940.png)
+![Dashboard](screenshots/Screenshot%202026-09-06%20124940.png)
 
 ### Add Transaction
-![Add Transaction](Screenshot%202026-09-06%20123705.png)
+![Add Transaction](screenshots/Screenshot%202026-09-06%20123705.png)
 
 ### Budget Setup
-![Budget Setup](Screenshot%202026-09-06%20124919.png)
+![Budget Setup](screenshots/Screenshot%202026-09-06%20124919.png)
 
 ### Insights & AI Coach
-![Insights](Screenshot%202026-09-06%20124924.png)
+![Insights](screenshots/Screenshot%202026-09-06%20124924.png)
 
 ### Transaction History
-![Transaction History](Screenshot%202026-09-06%20124931.png)
+![Transaction History](screenshots/Screenshot%202026-09-06%20124931.png)
 
 ---
 
