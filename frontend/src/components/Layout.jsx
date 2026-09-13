@@ -1,15 +1,33 @@
-import React, { useState } from 'react'
-import { Link, Outlet, useNavigate } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link, Outlet, useNavigate, useLocation } from 'react-router-dom'
 import toast from 'react-hot-toast'
 
 function Layout() {
   const navigate = useNavigate()
-  const token = localStorage.getItem('token')
-  const [isLoggedIn] = useState(!!token)
+  const location = useLocation()
+  const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem('token'))
+
+  // Re-check token state on route change or auth events
+  useEffect(() => {
+    const checkAuth = () => {
+      setIsLoggedIn(!!localStorage.getItem('token'))
+    }
+    
+    checkAuth()
+    window.addEventListener('storage', checkAuth)
+    window.addEventListener('auth-change', checkAuth)
+
+    return () => {
+      window.removeEventListener('storage', checkAuth)
+      window.removeEventListener('auth-change', checkAuth)
+    }
+  }, [location.pathname])
 
   const handleLogout = () => {
     localStorage.removeItem('token')
     localStorage.removeItem('user')
+    setIsLoggedIn(false)
+    window.dispatchEvent(new Event('auth-change'))
     toast.success('Logged out successfully')
     navigate('/login')
   }
