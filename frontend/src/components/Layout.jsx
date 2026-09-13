@@ -7,7 +7,6 @@ function Layout() {
   const location = useLocation()
   const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem('token'))
 
-  // Re-check token state on route change or auth events
   useEffect(() => {
     const checkAuth = () => {
       setIsLoggedIn(!!localStorage.getItem('token'))
