@@ -4,6 +4,15 @@ A professional web application that helps you track UPI transactions, detect was
 
 ---
 
+
+## 🎬 Demo Video
+
+[![Watch BudgetBuddy Demo](https://img.youtube.com/vi/XPffarr-dzE/maxresdefault.jpg)](https://youtu.be/XPffarr-dzE)
+
+**▶ [Watch the full demo on YouTube](https://youtu.be/XPffarr-dzE)**
+
+---
+
 ## 📸 Screenshots
 
 ### Landing Page (Logged In)
